@@ -1,0 +1,43 @@
+{
+  "name": "marmiton-backend-nodeJs",
+  "description": "",
+  "version": "0.0.1",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "crypto": "^0.0.3",
+    "express": "4.13.4",
+    "express-jwt": "^5.1.0",
+    "helmet": "^2.3.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.5",
+    "winston": "^2.2.0"
+  },
+  "scripts": {
+    "start":"gulp serve"
+  },
+  "author": "brendiche",
+  "license": "GNU",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-regenerator": "^6.16.1",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-preset-stage-2": "^6.17.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-bump": "^2.4.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-tar": "^1.9.0",
+    "run-sequence": "^1.2.2"
+  }
+}

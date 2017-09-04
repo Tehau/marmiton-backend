@@ -1,0 +1,52 @@
+2017-05-17T09:03:36.526Z - info: [Server] Init server...
+2017-05-17T09:03:36.569Z - info: [Database] Init database
+2017-05-17T09:03:36.585Z - info: [Database] Init database end
+2017-05-17T09:03:37.609Z - info: Mongoose default connection disconnected
+2017-05-17T09:03:37.647Z - error: Mongoose connection error
+2017-05-17T09:06:03.509Z - info: [Server] Init server...
+2017-05-17T09:06:03.545Z - info: [Database] Init database
+2017-05-17T09:06:03.556Z - info: [Database] Init database end
+2017-05-17T09:06:03.635Z - debug: Mongoose connection open to mongodb://localhost:27017/marmiton-dev
+2017-05-17T09:06:03.896Z - debug: [Server] Begin Listen...
+2017-05-17T09:06:03.906Z - debug: [Server] End Listen...
+2017-05-17T09:06:03.906Z - info: [Server] Listen on port : 3001
+2017-05-18T08:37:22.703Z - error: [Recipe Controller] get recipe  CastError: Cast to ObjectId failed for value "[object Object]" at path "_id" for model "Recipe"
+    at MongooseError.CastError (c:\projects\marmiton-backend\node_modules\mongoose\lib\error\cast.js:26:11)
+    at ObjectId.cast (c:\projects\marmiton-backend\node_modules\mongoose\lib\schema\objectid.js:147:13)
+    at ObjectId.castForQuery (c:\projects\marmiton-backend\node_modules\mongoose\lib\schema\objectid.js:187:15)
+    at cast (c:\projects\marmiton-backend\node_modules\mongoose\lib\cast.js:229:32)
+    at Query.cast (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2919:12)
+    at Query.findOne (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:1395:10)
+    at c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2732:21
+    at Query.exec (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2726:17)
+    at Query.then (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2774:15)
+2017-05-18T08:38:35.480Z - error: [Recipe Controller] get recipe  CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Recipe"
+    at MongooseError.CastError (c:\projects\marmiton-backend\node_modules\mongoose\lib\error\cast.js:26:11)
+    at ObjectId.cast (c:\projects\marmiton-backend\node_modules\mongoose\lib\schema\objectid.js:147:13)
+    at ObjectId.castForQuery (c:\projects\marmiton-backend\node_modules\mongoose\lib\schema\objectid.js:187:15)
+    at cast (c:\projects\marmiton-backend\node_modules\mongoose\lib\cast.js:229:32)
+    at Query.cast (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2919:12)
+    at Query.findOne (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:1395:10)
+    at c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2732:21
+    at Query.exec (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2726:17)
+    at Query.then (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2774:15)
+2017-05-18T08:40:08.280Z - error: [Recipe Controller] get recipe  CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Recipe"
+    at MongooseError.CastError (c:\projects\marmiton-backend\node_modules\mongoose\lib\error\cast.js:26:11)
+    at ObjectId.cast (c:\projects\marmiton-backend\node_modules\mongoose\lib\schema\objectid.js:147:13)
+    at ObjectId.castForQuery (c:\projects\marmiton-backend\node_modules\mongoose\lib\schema\objectid.js:187:15)
+    at cast (c:\projects\marmiton-backend\node_modules\mongoose\lib\cast.js:229:32)
+    at Query.cast (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2919:12)
+    at Query.findOne (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:1395:10)
+    at c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2732:21
+    at Query.exec (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2726:17)
+    at Query.then (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2774:15)
+2017-05-18T08:40:18.316Z - error: [Recipe Controller] get recipe  CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Recipe"
+    at MongooseError.CastError (c:\projects\marmiton-backend\node_modules\mongoose\lib\error\cast.js:26:11)
+    at ObjectId.cast (c:\projects\marmiton-backend\node_modules\mongoose\lib\schema\objectid.js:147:13)
+    at ObjectId.castForQuery (c:\projects\marmiton-backend\node_modules\mongoose\lib\schema\objectid.js:187:15)
+    at cast (c:\projects\marmiton-backend\node_modules\mongoose\lib\cast.js:229:32)
+    at Query.cast (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2919:12)
+    at Query.findOne (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:1395:10)
+    at c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2732:21
+    at Query.exec (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2726:17)
+    at Query.then (c:\projects\marmiton-backend\node_modules\mongoose\lib\query.js:2774:15)

@@ -1,0 +1,1 @@
+{"ENV":"development","LOG_LEVEL":"debug","DATABASE":{"URL":"mongodb://localhost:27017/marmiton-dev","LOGIN":"","PASSWORD":""},"URLPREFIX":"/api","SERVER":{"SECURITY":{"JWT_SECRET":"9>btBd96K7^r]^m0O-1wesok:u^V*a:@U9;.0VI4o6M-Pk5gA@,_3B9RDt1c45"},"GENERAL":{"PORT":3001}}}
